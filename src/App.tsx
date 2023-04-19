@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AddUser from './screens/Authenticated/AddUser/AddUser';
+import HomePage from './screens/Authenticated/HomePage/HomePage';
+import LoginForm from './screens/Authentication/Login/LoginForm';
+import SignUpForm from './screens/Authentication/SignUp/SignUpForm';
+import ResponsiveDesign from './screens/Responsive/ResponsiveDesign';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="typewriter">
+      {/* <h1>Hello, My name is Tanishqa.</h1> */}
+      {/* <AddUser/> 
+      <LoginForm />
+      <SignUpForm></SignUpForm> */}
+      <HomePage />
+      {/* <ResponsiveDesign /> */}
     </div>
   );
 }
